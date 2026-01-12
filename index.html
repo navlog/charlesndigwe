@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Engr. Chukwuemeka C Ndigwe | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <h1>CN</h1>
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  <ul id="menu">
+    <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+    <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+    <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+    <li><a onclick="toggleTheme()">🌙</a></li>
+  </ul>
+</nav>
+
+<!-- HEADER -->
+<header>
+  <img src="https://neocities.org/site_thumbnails/76/73/charlescndigwe/profile-800x800.jpg.210x158.webp"
+       class="profile-pic" alt="Profile Picture">
+  <h1>Engr. Chukwuemeka Ndigwe</h1>
+  <p>
+    Cybersecurity Professional • Ethical Hacker • Software Engineer • Blockchain Developer  
+    Specialized in national-security systems, penetration testing, digital forensics,
+    blockchain development, red teaming, and secure software architecture.
+  </p>
+
+  <div class="controls">
+    <button onclick="toggleTheme()">🌙 Dark Mode</button>
+    <button onclick="downloadPDF()">⬇ Download CV</button>
+  </div>
+</header>
+
+<section id="skills">
+  <h2>Core Skills</h2>
+  <div class="grid">
+    <div class="card"><h3>Python</h3><div class="skill-bar"><div style="width:90%"></div></div></div>
+    <div class="card"><h3>JavaScript</h3><div class="skill-bar"><div style="width:85%"></div></div></div>
+    <div class="card"><h3>Ethical Hacking</h3><div class="skill-bar"><div style="width:95%"></div></div></div>
+    <div class="card"><h3>Blockchain Security</h3><div class="skill-bar"><div style="width:80%"></div></div></div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="grid">
+    <div class="card"><h3>Senior Software Engineer</h3><p>CUETAC Industries (2024–Present)</p></div>
+    <div class="card"><h3>Cybersecurity Professional</h3><p>Nigerian Naval HQ (2018–2023)</p></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">Naval Logistics Management System</div>
+    <div class="card">Blockchain Evidence Vault</div>
+    <div class="card">Red Team Toolkit</div>
+    <div class="card">Network Intrusion Detection System</div>
+  </div>
+</section>
+
+<footer>
+  © Engr. Chukwuemeka C Ndigwe | Cybersecurity Portfolio
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
